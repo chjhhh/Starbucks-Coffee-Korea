@@ -1,5 +1,5 @@
 ## Starbucks Coffee Korea
-[![스타벅스 이미지](https://chjhhh.github.io/Starbucks-Coffee-Korea/images/logo.png)](https://chjhhh.github.io/Starbucks-Coffee-Korea/)
+![스타벅스 이미지](https://chjhhh.github.io/Starbucks-Coffee-Korea/images/logo.png)
 
 ## Favicon(파비콘, favorites icon)
 웹페이지를 나타내는 아이콘으로 웹페이지의 로고를 설정한다.

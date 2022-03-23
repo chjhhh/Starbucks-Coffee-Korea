@@ -22,7 +22,7 @@ gsap으로 애니메이션을 제어할 수 있다.
 ```css
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
->ex javascript
+>ex Starbucks javascript
 ```javascript
 // main section 순차적 등장
 const fadeEl = document.querySelectorAll('.main-section .fade-in');
@@ -41,7 +41,7 @@ fadeEl.forEach(function(fadeEl, index){
 ```css
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
->ex css
+>ex Starbucks css
 ```css
 /* spy */
 .back-to-position{
@@ -59,7 +59,7 @@ fadeEl.forEach(function(fadeEl, index){
     transform: translateX(0);
 }
 ```
->ex javascript
+>ex Starbucks javascript
 ```javascript
 // Magic Scroll--------
 const spyEl = document.querySelectorAll('section.scroll-spy');
@@ -130,7 +130,7 @@ new Swiper('변경 .swiper', {
   }
 });
 ```
->ex javascript
+>ex Starbucks javascript
 ```javascript
 // 공지사항 swiper slider
 new Swiper('.notice .swiper', {

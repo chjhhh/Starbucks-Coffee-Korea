@@ -1,3 +1,18 @@
+// search 버튼 제어
+const searchEl = document.querySelector('.search');
+const searchInputEl = searchEl.querySelector('input');
+
+searchEl.addEventListener('click', function(){
+    searchInputEl.focus();
+});
+
+searchInputEl.addEventListener('focus',function(){
+    searchInputEl.setAttribute("placeholder", '통합검색');
+});
+searchInputEl.addEventListener('blur',function(){
+    searchInputEl.setAttribute("placeholder", '');
+});
+
 // main section 순차적 등장
 const fadeEl = document.querySelectorAll('.main-section .fade-in');
 fadeEl.forEach(function(fadeEl, index){

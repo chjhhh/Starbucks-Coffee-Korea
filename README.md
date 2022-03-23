@@ -159,3 +159,28 @@ new Swiper('.promotion-slide .swiper', {
     centeredSlides : true //1번 슬라이드가 가운데 보이기
 });
 ```
+
+## Search
+>ex Starbucks html
+```html
+<div class="search">
+                    <input type="text">
+                    <span class="material-icons">search</span>
+                </div>
+```
+```ex Starbucks javascript
+// search 버튼 제어
+const searchEl = document.querySelector('.search');
+const searchInputEl = searchEl.querySelector('input');
+
+searchEl.addEventListener('click', function(){
+    searchInputEl.focus();
+});
+
+searchInputEl.addEventListener('focus',function(){
+    searchInputEl.setAttribute("placeholder", '통합검색');
+});
+searchInputEl.addEventListener('blur',function(){
+    searchInputEl.setAttribute("placeholder", '');
+});
+```

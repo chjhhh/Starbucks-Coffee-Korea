@@ -164,11 +164,20 @@ new Swiper('.promotion-slide .swiper', {
 >ex Starbucks html
 ```html
 <div class="search">
-                    <input type="text">
-                    <span class="material-icons">search</span>
-                </div>
+    <input type="text">
+    <span class="material-icons">search</span> //구글 meterial icon
+</div>
 ```
-```ex Starbucks javascript
+구글 meterial icon으로 돋보기를 추가했다.   
+>ex Starbucks css
+```css
+header .inner .top-menu .search input:focus{
+    width: 200px;
+    border-color: #669900;
+}
+```
+>ex Starbucks javascript
+```javascript
 // search 버튼 제어
 const searchEl = document.querySelector('.search');
 const searchInputEl = searchEl.querySelector('input');
@@ -184,3 +193,7 @@ searchInputEl.addEventListener('blur',function(){
     searchInputEl.setAttribute("placeholder", '');
 });
 ```
+1. .search를 searchEl에, input 상자는 searchInputEl에 담았다.   
+2. searchEl(.search)를 click할 때 focus가 되어 width: 200px, border-color: #669900으로 바뀐다.
+3. searchInputEl(input 상자)에 focus가 들어가면 input 상자에 '통합검색'이라 나온다.
+4. searchInputEl(input 상자)에 blur가 되면 input 상자에 '통합검색'이 지워지고 나오게 된다.

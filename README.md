@@ -74,6 +74,8 @@ spyEl.forEach(function(spyEl){
     .addTo(new ScrollMagic.Controller());
 });
 ```
+* setClassToggle
+클래스 붙고 사라지고, 스크롤에 따라서 보였다 안 보였다를 자동으로 만들어준다.
 
 ## Swiper Slider
 터치가 가능한 슬라이드이다.

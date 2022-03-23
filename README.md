@@ -130,3 +130,32 @@ new Swiper('변경 .swiper', {
   }
 });
 ```
+>ex javascript
+```javascript
+// 공지사항 swiper slider
+new Swiper('.notice .swiper', {
+    direction: 'vertical',
+    loop: true,
+    autoplay : true
+});
+
+//------------------promoiton swiper slider---------------------
+new Swiper('.promotion-slide .swiper', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay : {
+        delay : 5000
+    },
+    pagination : {
+        el : ".promotion-slide .swiper-pagination",
+        clickable : true
+    },
+    navigation : {
+        prevEl : ".promotion-slide .swiper-button-prev",
+        nextEl : ".promotion-slide .swiper-button-next"
+    },
+    slidesPerView : 3, //한 번에 보여줄 슬라이드 개수
+    spaceBetween : 10, //슬라이드 사이 여백
+    centeredSlides : true //1번 슬라이드가 가운데 보이기
+});
+```

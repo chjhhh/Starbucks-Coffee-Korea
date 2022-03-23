@@ -442,7 +442,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     position: absolute;
     display: flex;
     top: 50px;
-    right: 140px;
+    right: 135px;
     padding-bottom: 15px;
 }
 .rewards .inner .top-right a:first-child{
@@ -468,7 +468,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 }
 .rewards .inner .bottom .bottom-left{
     padding: 15px 0;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 .rewards .inner .top h2,
 .rewards .inner .top p,

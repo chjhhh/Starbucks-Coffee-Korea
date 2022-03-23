@@ -7,22 +7,21 @@
 <link rel="shortcut icon" href="favicon.ico" /> 
 <link rel="icon" href="./favicon.png" />
 ```
-다음과 같이 설정할 수 있다.
 favicon.ico 64 x 64, 32 x 32, 16 x 16(px)   
 favicon.png 500 x 500(px)
 
 ## 구글 meterial icon
+해당 링크를 연결해 구글의 meterial icon을 사용할 수 있다.
 ```css
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 ```
-해당 링크를 연결해 구글의 meterial icon을 사용할 수 있다.
 
 ## gsap
+gsap으로 애니메이션을 제어할 수 있다.   
+스타벅스를 들어가면 메인 화면에서 차례로 이미지가 보여질 때 사용하였고 scroll이 긴 홈페이지에서 top 버튼을 사용할 때 부드럽게 올라가도록 제어해줄 수 있다.   
 ```css
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
-gsap으로 애니메이션을 제어할 수 있다.   
-스타벅스를 들어가면 메인 화면에서 차례로 이미지가 보여질 때 사용하였고 scroll이 긴 홈페이지에서 top 버튼을 사용할 때 부드럽게 올라가도록 제어해줄 수 있다.   
 >ex javascript
 ```javascript
 // main section 순차적 등장
@@ -37,11 +36,11 @@ fadeEl.forEach(function(fadeEl, index){
 ```
 
 ## Scroll Magic
+상하좌우에서 나타나는 애니메이션을 Scroll Magic으로 제어할 수 있다.   
+감지할 부분, 움직이는 부분에 class, id 등 부여해주고 아래와 같이 css와 javascript로 제어한다.
 ```css
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
-상하좌우에서 나타나는 애니메이션을 Scroll Magic으로 제어할 수 있다.   
-감지할 부분, 움직이는 부분에 class, id 등 부여해주고 아래와 같이 css와 javascript로 제어한다.
 >ex css
 ```css
 /* spy */
@@ -77,6 +76,7 @@ spyEl.forEach(function(spyEl){
 ```
 
 ## Swiper Slider
+터치가 가능한 슬라이드이다.
 >css
 ```css
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>

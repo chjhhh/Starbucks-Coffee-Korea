@@ -27,6 +27,7 @@ img{display: block;}
     position: relative;
 }
 
+/* 버튼 */
 .btn{
     width: 120px;
     text-align: center;
@@ -72,6 +73,7 @@ header .inner h1{
     height: 75px;
     margin: 30px;
 }
+/* 로그인 ~ 매장찾기 상단 버튼 */
 header .inner .top-menu{
     position: absolute;
     display: flex;
@@ -118,6 +120,7 @@ header .inner .top-menu .search input{
     text-indent: 5px;
     transition: width 0.3s;
 }
+/* 검색창 focus 들어갈 때 */
 header .inner .top-menu .search input:focus{
     width: 200px;
     border-color: #669900;
@@ -189,7 +192,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__menu > ul.inne
     color: #669900;
 }
 
-/* 2단 */
+/* 2단 : 1단 메뉴 하단의 텍스트 */
 header .inner nav ul.main-menu li.item .item__contents .contents__text{
     background: url(../images/gnb_sub_txbg.jpg);
     font-size: 13px;
@@ -255,6 +258,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     border-color: palevioletred;
     color: palevioletred;
 }
+/* 버튼 호버 */
 .main-section .inner .btn:hover{
     background: palevioletred;
     color: #fff;
@@ -264,6 +268,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .notice{
     position: relative;
 }
+/* 왼쪽 배경 */
 .notice .left-bg{
     position: absolute;
     top: 0;
@@ -272,6 +277,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     height: 100%;
     background: #000;
 }
+/* 오른쪽 배경 */
 .notice .right-bg{
     position: absolute;
     top: 0;
@@ -294,6 +300,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     font-size: 20px;
     margin: 22px 20px;
 }
+/* 공지사항 */
 .notice .inner .left .swiper{
     width: 370px;
     height: 70px;
@@ -315,6 +322,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .notice .inner .left .notice-btn img{
     width: 100%;
 }
+/* 프로모션 */
 .notice .inner .right{
     display: flex;
     width: 40%;
@@ -421,9 +429,11 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     justify-content: center;
     align-items: center;
 }
+/* 리워드 이미지 */
 .rewards .inner img{
     width: 200px;
 }
+/* 리워드 텍스트와 버튼 */
 .rewards .inner .topbottom{
     padding: 20px;
 }
@@ -431,14 +441,17 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     color: #fff;
     border-color: #fff;
 }
+/* 리워드 텍스트 중 상단 */
 .rewards .inner .top{
     display: flex;
     padding-bottom: 10px;
     border-bottom: 1px solid #999;
 }
+/* 리워드 텍스트 */
 .rewards .inner .top-left h2{
     padding-bottom: 10px;
 }
+/* 리워드 버튼 */
 .rewards .inner .top-right{
     position: absolute;
     display: flex;
@@ -463,6 +476,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     background: #00704A;
     color: #fff;
 }
+/* 리워드 텍스트 하단 */
 .rewards .inner .bottom{
     display: flex;
     padding-top: 10px;
@@ -471,6 +485,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     padding: 15px 0;
     margin-right: 12px;
 }
+
 .rewards .inner .top h2,
 .rewards .inner .top p,
 .rewards .inner .bottom p{
@@ -488,6 +503,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     background: url(../images/2022_Spring_bean_bg_1.jpg) no-repeat;
     position: relative;
 }
+/* 왼쪽 배경 */
 .spring-season .spring-season-left{
     background: url(../images/2022_Spring_bean_left_bg_1.png) no-repeat;
     position: absolute;
@@ -496,6 +512,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     width: 520px;
     height: 100%;
 }
+/* 오른쪽 배경 */
 .spring-season .spring-season-right{
     background: url(../images/2022_Spring_bean_right_bg_1.png) no-repeat;
     position: absolute;
@@ -507,11 +524,13 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .spring-season .inner{
     height: 572px;
 }
+/* 왼쪽 제품 사진 */
 .spring-season .inner .spring-left{
     position: absolute;
     top: 80px;
     left: 100px;
 }
+/* 오른쪽 텍스트 */
 .spring-season .inner .spring-right{
     position: absolute;
     top: 150px;
@@ -520,6 +539,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .spring-season .inner .spring-right img{
     margin-bottom: 30px;
 }
+/* 버튼 */
 .spring-season .inner .spring-right a{
     border-color: palevioletred;
     color: palevioletred;
@@ -537,6 +557,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .sun-dried .inner{
     height: 400px;
 }
+/* 배경 */
 .sun-dried .inner .sun-dried-bg{
     background: url(../images/reserve_2022_ethiopia_visual.jpg) no-repeat center;
     height: 400px;
@@ -549,6 +570,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     top: 80px;
     left: 100px;
 }
+/* 버튼 */
 .sun-dried .inner a{
     position: absolute;
     top: 270px;
@@ -567,6 +589,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     background: url(../images/fav_prod_bg_new.jpg) no-repeat fixed;
     background-size: cover;
 }
+/* 왼쪽 텍스트 */
 .pick .inner .pick-left{
     margin-left: 100px;
     width: 300px;
@@ -581,6 +604,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .pick .inner .pick-left img:nth-child(2){
     margin-bottom: 30px;
 }
+/* 버튼 */
 .pick .inner .pick-left a{
     border-color: #fff;
     color: #fff;
@@ -589,6 +613,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     color: #202020;
     background: #fff;
 }
+/* 오른쪽 사진 */
 .pick .inner .pick-right{
     position: absolute;
     top: 100px;
@@ -608,6 +633,12 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     top: 150px;
     left: 70px;
 }
+.reserve .inner img:nth-child(3){
+    position: absolute;
+    top: 50px;
+    right: 120px;
+}
+/* 버튼 */
 .reserve .inner a{
     position: absolute;
     top: 280px;
@@ -616,11 +647,6 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .reserve .inner a:hover{
     color: #fff;
     background: #202020;
-}
-.reserve .inner img:nth-child(3){
-    position: absolute;
-    top: 50px;
-    right: 120px;
 }
 
 /* ----------스타벅스 매장---------- */
@@ -633,11 +659,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .store .inner{
     height: 400px;
 }
-.store .inner .store-left img:nth-child(2){
-    position: absolute;
-    top: 160px;
-    left: 200px;
-}
+/* 배경 */
 .store .inner .coffee-bg{
     position: absolute;
     top: -60px;
@@ -650,6 +672,12 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
     bottom: 0;
     right: 0;
 }
+/* 원형 사진 */
+.store .inner .store-left img:nth-child(2){
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
 .store .inner .store-right{
     position: absolute;
     top: 100px;
@@ -661,6 +689,7 @@ header .inner nav ul.main-menu li.item .item__contents .contents__text p{
 .store .inner .store-right img:nth-child(2){
     margin-bottom: 20px;
 }
+/* 버튼 */
 .store .inner .store-right a:hover{
     color: #fff;
     background: #202020;
